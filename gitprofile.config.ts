@@ -8,7 +8,7 @@ const CONFIG = {
     corsProxy: 'https://scratchapicors-8nbi5t6td-theyoungmaker.vercel.app/', //TODO: Enter your CORS Proxy here
   },
   github: {
-    username: 'theyoungmaker', // Your GitHub org/user name. (This is the only required config)
+    username: 'fishingdih13-sys', // Your GitHub org/user name. (This is the only required config)
   },
   base: '/gitprofile',
   projects: {
@@ -58,12 +58,12 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: '',
-    facebook: '',
-    instagram: '',
-    tiktok: '',
-    email: '',
-    website: '',
+    linkedin: 'company/the-young-maker/',
+    facebook: 'the.young.makersingapore',
+    instagram: 'the.young.maker',
+    tiktok: 'the.young.maker',
+    email: 'hello@theyoungmaker.com',
+    website: 'http://theyoungmaker.com',
     twitter: '',
     mastodon: '',
     researchGate: '',
@@ -81,10 +81,10 @@ const CONFIG = {
     phone: '',
   },
   resume: {
-    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'monkey.png', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Scratch',
+    'tiktok',
     'Microbit',
     'JavaScript',
     'Design Thinking',
@@ -99,7 +99,7 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
+      company: 'company ww',
       position: 'Position',
       from: 'September 2021',
       to: 'Present',
@@ -115,8 +115,8 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
+      name: 'Σωκράτης, Sōkrátēs',
+      body: 'Αν ο προγραμματισμός είναι η δύναμή σου, τι είσαι χωρίς αυτόν;',
       year: 'March 2022',
       link: 'https://example.com',
     },
@@ -151,7 +151,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'light',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -207,7 +207,7 @@ const CONFIG = {
       secondary: '#219aaf',
       accent: '#e8d03a',
       neutral: '#2A2730',
-      'base-100': '#E3E3ED',
+      'base-100': '#1818bb',
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
     },
